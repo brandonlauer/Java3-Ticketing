@@ -7,6 +7,7 @@ package ipd12.movieticketing;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
+import java.sql.PreparedStatement;
 import java.sql.SQLException;
 
 /**
@@ -42,4 +43,16 @@ public class Database
         }
         conn = DriverManager.getConnection(url);
     }
+	
+	public void addUser(User user) throws SQLException
+	{
+		String sql = "INSERT INTO users (firstName, lastName, email, password) VALUES (?, ?, ?, ?)";
+        try (PreparedStatement statement = conn.prepareStatement(sql);) {
+            statement.setString(1, user.firstName);
+            statement.setString(2, user.lastName);
+            statement.setString(3, user.email);
+			statement.setString(4, user.password);
+            statement.executeUpdate();
+        }
+	}
 }
