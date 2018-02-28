@@ -25,11 +25,10 @@ Each member writes down answers to 3 questions:
 1. Done / Not done since last Scrum
 - Create database on Azure and admin loging
 - Designed buy ticket,print ticket and seat selection windows
-- Did not create all tables into the databese 
+- Created all tables into the database
 - Did not complete project proposal
 2. Plan to do next
 - Finish project proposal
-- Create all tables into the database
 - Start working on the functionality to buy a ticket
 3. Need assistance / figure out
 - Need assistance loading API database.
