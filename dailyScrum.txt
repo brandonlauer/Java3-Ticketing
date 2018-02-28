@@ -1,0 +1,22 @@
+DAILY SCRUM - EVERY DAY AT 9 AM
+===============================
+
+Each member writes down answers to 3 questions:
+
+<< Current date goes here >>
+1. What I have done / not done since last Scrum?
+2. What I plan to do from this scrum to next? (24 hours)
+3. Where do I need assistance? What do I need to figure out?
+
+<< 2018-02-28 >> Brandon
+1. Done / Not done since last Scrum
+- Created git repository
+- Added project to repository
+- Designed login and movie list windows
+- Did not complete project proposal
+- Connected project to the database
+2. Plan to do next
+- Finish project proposal
+- Add functionality to login / register window
+3. Need assistance / figure out
+- Need assistance loading API database.
